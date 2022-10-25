@@ -368,3 +368,140 @@ h2 {
 /************************
 /* END FEATURES SECTION */
 /*************************/
+
+/************************
+Start FOOTER
+*************************/
+.footer {
+  background-color: var(--main-color);
+  color: #fff;
+  font-size: 14px;
+  padding: 14.4rem 7.8rem 6.4rem 12rem;
+  grid-template-columns: 1.3fr 1fr 1fr 1fr;
+  justify-items: center;
+  position: relative;
+}
+
+@media (max-width: 62em) {
+  .footer {
+    padding: 16.8rem 2.6rem 5.75rem 2rem;
+  }
+}
+
+@media (max-width: 41em) {
+  .footer {
+    grid-template-columns: 1fr;
+    justify-items: flex-start;
+    gap: 24px;
+  }
+}
+
+.footer-logo {
+  display: inline-block;
+  max-width: 15.2rem;
+  margin-bottom: 3.2rem;
+}
+
+@media (max-width: 41em) {
+  .footer-logo {
+    max-width: 20.75rem;
+  }
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+@media (max-width: 41em) {
+  .contacts {
+    margin-bottom: 17px;
+    gap: 3rem;
+  }
+}
+
+.contacts .location {
+  line-height: 24px;
+}
+
+.contacts .location img {
+  height: 24px;
+}
+
+.contacts .location,
+.contacts .footer-link {
+  display: flex;
+  align-items: center;
+  column-gap: inherit;
+}
+
+.footer-link {
+  color: #fff;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.2rem;
+}
+
+@media (max-width: 41em) {
+  .footer-nav {
+    row-gap: 2rem;
+  }
+}
+
+.footer-nav .footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-nav .footer-link {
+  line-height: 27px;
+}
+
+.social-links {
+  display: flex;
+  column-gap: 12px;
+}
+
+@media (max-width: 41em) {
+  .social-links {
+    justify-self: center;
+    margin-bottom: 39px;
+  }
+}
+
+.social-links .footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #fff;
+  padding: 4px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  transition-duration: 0.4s;
+}
+
+.social-links .footer-link:hover {
+  border-color: #FF52C1;
+  color: #FF52C1;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 64px;
+  right: 78px;
+}
+
+@media (max-width: 41em) {
+  .copyright {
+    margin: auto;
+    font-size: 11.5px;
+    bottom: 46px;
+  }
+}
+/************************
+END FOOTER
+*************************/
