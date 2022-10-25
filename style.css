@@ -231,3 +231,140 @@ h2 {
 /*************************/
 /* END HOME */
 /*************************/
+
+/************************
+/* Start FEATURES SECTION */
+/*************************/
+.features-section {
+  background-color: rgb(253, 253, 253);
+  padding: 16rem 10.4rem 34.4rem 10.4rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  position: relative;
+}
+
+@media (max-width: 72em) {
+  .features-section {
+    padding: 7.4rem 2.5rem 28.7rem 2.5rem;
+  }
+}
+
+.feature-box {
+  background-color: #ffffff;
+  padding: 5.3rem 3.2rem;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.07);
+  border-radius: 16px;
+}
+
+@media (max-width: 41em) {
+  .feature-box {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 3rem 4.94rem 6.75rem ;
+  }
+}
+
+@media (max-width: 41em) {
+  .feature-box .feature-text {
+    grid-row: 2;
+    text-align: center;
+  }
+}
+ 
+.feature-text {
+  max-width: 48.8rem;
+  justify-self: center;
+}
+
+.feature-text h2 {
+  font-size: 2.8rem;
+  color: var(--main-color);
+  margin-bottom: 16px;
+}
+
+@media (max-width: 41em) {
+  .feature-text h2 {
+    font-size: 2.5rem;
+  }
+}
+ 
+.feature-text p {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #7e8d9a;
+}
+
+.feature-img-box {
+  display: flex;
+}
+
+.feature-img-box:nth-last-of-type(odd) {
+  justify-content: end;
+}
+
+@media (max-width: 41em) {
+  .feature-img-box {
+    justify-content: center !important;
+    margin-bottom: 24px;
+  }
+}
+
+.feature-img {
+  max-width: 69.5%;
+}
+
+/* START CTA */
+.cta-box  {
+  width: 80rem;
+  max-width: 80rem;
+  text-align: center;
+  background-color: #fff;
+  padding: 5.8rem 0;
+  position: absolute;
+  bottom: -96px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.0710768);
+  border-radius: 15px;
+  z-index: 999;
+}
+
+@media (max-width: 62em) {
+  .cta-box {
+    max-width: 94%;
+    padding: 5.1rem 0;
+  }
+}
+
+.cta-box h2 {
+  font-size: 3.2rem;
+  color: var(--main-color);
+  line-height: 1.9;
+  margin-bottom: 2.4rem;
+}
+
+@media (max-width: 62em) {
+  .cta-box h2 {
+    font-size: 2.25rem;
+  }
+}
+
+.cta-box .btn {
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 2.5rem 10rem;
+  box-shadow: 0px 6px 13px rgba(0, 37, 46, 0.223053);
+  border-radius: 40px;
+}
+
+@media (max-width: 41em) {
+  .cta-box .btn {
+    font-size: 1.25rem;
+    padding: 1.56rem 6.2rem;
+  }
+}
+/* END CTA */
+/************************
+/* END FEATURES SECTION */
+/*************************/
