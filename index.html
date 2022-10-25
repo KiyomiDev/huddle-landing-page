@@ -10,6 +10,14 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>
       Frontend Mentor | Huddle landing page with alternating feature blocks
@@ -122,5 +130,65 @@
       </section>
       <!-- END FEATURES SECTION -->
     </main>
+
+    <!-- START FOOTER -->
+    <footer class="footer grid grid--4-cols">
+      <div class="address-col">
+        <a href="#" class="footer-link">
+          <img src="images/logo-white.svg" alt="" class="footer-logo" />
+        </a>
+        <address class="contacts">
+          <p class="location">
+            <img src="images/icon-location.svg" class="icon" alt="" />Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua
+          </p>
+          <a class="footer-link" href="tel:+1-543-123-4567">
+            <img src="images/icon-phone.svg" class="icon" alt="" />+1-543-123-4567</a
+          >
+          <a class="footer-link" href="mailto:example@huddle.com">
+            <img src="images/icon-email.svg" class="icon" alt="" /> example@huddle.com</a
+          >
+        </address>
+      </div>
+
+      <nav class="nav-col">
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">About Us</a></li>
+          <li><a class="footer-link" href="#">What We Do</a></li>
+          <li><a class="footer-link" href="#">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <nav class="nav-col">
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">Career</a></li>
+          <li><a class="footer-link" href="#">Blog</a></li>
+          <li><a class="footer-link" href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social-links">
+        <li>
+          <a class="footer-link" href="#"
+            ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a class="footer-link" href="#"
+            ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a class="footer-link" href="#"
+            ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+          ></a>
+        </li>
+      </ul>
+      <p class="copyright">
+        Copyright &copy; 2022 Huddle. All rights reserved.
+      </p>
+    </footer>
+    <!-- END FOOTER -->
   </body>
 </html>
