@@ -50,3 +50,22 @@ h2 {
 /**************************/
 /* END GENERAL RULES */
 /**************************/
+
+/**************************/
+/* START GENERAL REUSABLE COMPONENTS */
+/**************************/
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+/**************************/
+/* END GENERAL REUSABLE COMPONENTS */
+/**************************/
