@@ -1,0 +1,52 @@
+/**************************/
+/* START GENERAL RULES */
+/**************************/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #00252e;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 72em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+/**************************/
+/* END GENERAL RULES */
+/**************************/
